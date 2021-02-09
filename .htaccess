@@ -13,7 +13,7 @@
 
   # Send any GIF, JPG, or PNG request that IS NOT stored inside one of the above directories
   # to adaptive-images.php so we can select appropriately sized versions
-  RewriteBase /~emb2065/iste252/adaptive-images/
+  RewriteBase /adaptive-images/
   RewriteRule \.(?:jpe?g|gif|png)$ adaptive-images.php
   
  

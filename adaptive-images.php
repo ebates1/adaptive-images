@@ -19,7 +19,7 @@
 
 /* CONFIG ----------------------------------------------------------------------------------------------------------- */
 $resolutions   = array(1382, 992, 768, 480); // the resolution break-points to use (screen widths, in pixels)
-$document_root = "/home/MAIN/emb2065/Sites/iste252/adaptive-images/";
+$document_root = "/adaptive-images/";
 $cache_path    = "ai-cache"; // where to store the generated re-sized images. Specify from your document root!
 $jpg_quality   = 75; // the quality of any generated JPGs on a scale of 0 to 100
 $sharpen       = TRUE; // Shrinking images can blur details, perform a sharpen on re-scaled images?
